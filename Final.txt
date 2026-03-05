@@ -1,0 +1,51 @@
+1. Explain difference between == and ===
+
+== 
+means loosely comparative type
+i will not compare the data type
+
+===
+
+means strictly comparative type 
+it will ensure the data types is also equal
+
+
+2. Explain difference between a++ and ++a
+
+a++
+
+it means post increment
+returns the value first then update the variable value later.
+
+++a
+
+it means pre-increment 
+it will the variable value first then return to the variable.
+
+
+3. List all falsy values
+
+1.false - boolean type
+2.0  - Number type
+3. "" - Empty string
+4. null
+5.undefined
+
+4. Explain why "5" - 2 works but "5" + 2 behaves differently
+
+"5" - 2
+
+firstly our compiler wil think is their any possibilities to combine the both if not implicit function comes into the picture and then convert it to suitable operational object 
+
+example 
+"5" now 5 is string type with string we cant perform any arithmetic operations, so then it into converted it number, so the arithmetic operation can be performed.
+
+"5" + 2
+
+firstly our compiler will check weather any possibility is available to with the given operation, the given "5" is a string type so that we perform the string Concatenation so it will perform the operation otherwise implicit function comes into the picture then perform, it will do the type conversion according to the requirement.
+
+
+5. Explain why null == undefined is true
+
+it is  loosely comparison operator it will given true, it will not provide any dat type comparison 
+
